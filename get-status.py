@@ -35,13 +35,13 @@ def main(argv):
 
     # print infos
     print("version '{}'".format(jsondata['version']))
-    print("car '{}'".format(jsondata['car']))
+    print("car '{}' 1=Ready for Charging, 2=Charging, 3=Waiting for Car".format(jsondata['car']))
     print("amp '{}' Ampere (current setting)".format(jsondata['amp']))
     print("err '{}'".format(jsondata['err']))
     print("ast '{}' Automatic Stop ?".format(jsondata['ast']))
     print("alw '{}'".format(jsondata['alw']))
     print("stp '{}'".format(jsondata['stp']))
-    print("cbl '{}' Cable capability in A".format(jsondata['cbl']))
+    print("cbl '{}' Cable capability in A, 0 for no Cable".format(jsondata['cbl']))
     print("pha '{}'".format(jsondata['pha']))
     print("tmp '{}'".format(jsondata['tmp']))
     print("dws '{}'".format(jsondata['dws']))
