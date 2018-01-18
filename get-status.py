@@ -11,7 +11,7 @@ import json
 import time
 from datetime import timedelta, date, datetime
 
-hostname = "go-echarger.fritz.box"
+hostname = "go-echarger"
 
 def main(argv):
 
