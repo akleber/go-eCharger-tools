@@ -22,3 +22,7 @@ Then set the right hostname or ip address in get_status.py if different from "go
 ```
 python3 get_status.py
 ```
+
+# Acknowledgments
+
+@peterpoetzi for API explanations
